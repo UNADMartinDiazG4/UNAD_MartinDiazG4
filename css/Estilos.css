@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+article, section, nav, header, footer{
+	display: block;
+}
+
+body { 
+	background: #006680;
+    margin: 0 auto;
+}
+
+#contenedor { 
+width: 960px;
+background-color: #FFF;
+margin: 0 auto;
+}
+header{
+	box-shadow: 0px 1px 6px #333;
+}
+#banner img{
+	max-width: 100%;
+}
+
+#imagen img{
+    max-width: 30%;
+    position: relative;
+    float: right;
+    padding: 7px;
+}
+
+.titulo{
+	font-size: 1em;
+    text-align: right;
+    margin: -100px 10px;
+    position: relative;
+    z-index: 2;
+    width: 50%;
+    float: right;
+    color: #000;
+    background: white;
+    padding: 5px;
+    border-radius: 0.25em;
+}
+
+nav ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: #333;
+}
+
+
+
+.contenido {
+	float: right;
+	width: 73%;
+	margin: 0 2% 3% 2%;
+}
+
+
+#menu{
+	float: left;
+    width: 20%;
+    padding: 0 1%;
+    margin-top: 1%;
+    background: #333333;
+}
+
+#menu nav ul{
+	font-size:20px; 
+	padding: 0;
+}
+#menu nav ul li {
+    list-style: none;
+    background: #FF5900;
+    color: #fff;
+    text-align: left;
+    margin: 10px 0 10px 0;
+    border: 2px solid #000;
+    padding: 2px 10px 2px 10px;
+}
+
+footer {
+	clear: both;
+    padding: 20px 5px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
